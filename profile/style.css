@@ -1,0 +1,83 @@
+body 
+{
+    background-color: rgba(89, 6, 128, 0.541);
+}
+.header 
+{
+    color: rgb(160, 122, 179);
+    font-family: inherit;
+    text-align: center;
+    background-color: rgb(6, 0, 12);
+}
+p 
+{
+    color: rgb(13, 13, 14);
+}
+.about 
+{
+    position: relative;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-style: oblique;
+    top: 15px;
+    font-size: 20px;
+}
+.about img 
+{
+    border-radius: 100%;
+}
+.socials img 
+{
+    position: fixed;
+    width: 100px;
+}
+.facebook a 
+{
+    position: absolute;
+    top: 140px;
+    right: 100px;
+    font-size: 20px;
+    color: #000;
+}
+.facebook img 
+{
+    top: 100px;
+    right: 1px;
+}
+.instagram a 
+{
+    position: absolute;
+    top: 230px;
+    right: 100px;
+    font-size: 20px;
+    color: #000;
+}
+.instagram img 
+{
+    width: 100px;
+    top: 200px;
+    right: 1px;
+}
+.whatsapp a 
+{
+    position: absolute;
+    top: 335px;
+    right: 100px;
+    font-size: 20px;
+    color: #000;
+}
+.whatsapp img 
+{
+    width: 100px;
+    top: 300px;
+    right: 1px;
+}
+.footer
+{
+    top: 80px;
+    position: relative;
+    background-color: #000;
+    text-align: center;
+    font-family: inherit;
+    color: rgb(160, 122, 179);
+}
