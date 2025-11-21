@@ -1,0 +1,94 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    min-height: 100vh;
+}
+.texto
+{
+    width: 100%;
+    font-size: 1.25rem;
+}
+img
+{
+    width: 100%;
+}
+img
+{
+    width: 100%;
+    height: auto;
+
+}
+header
+{
+    color: aliceblue;
+    background-color: black;
+    font-family: "Playfair Display";
+    font-variant: small-caps;
+    text-align: center;
+    height: 300px;
+}
+header > h1
+{
+    font-size: 5em;
+    padding-top: 50px;
+}
+a 
+{
+    color: white
+}
+section
+{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+.texto
+{
+    width: 50%;
+    line-height: 2em;
+    font-size: 3.5vw;
+    font-weight: 700;
+}
+
+#cordel1
+{
+    background-image: url(imagens/teclado.jpg);
+    background-position: left center;
+    background-attachment: fixed;
+}
+#cordel1 > p
+{
+    background-color: #ffffff41;
+}
+#cordel2
+{
+ background-image: url(imagens/carta.jpg);
+ background-position: center;
+ background-attachment: fixed;
+}
+#cordel2 > p 
+{
+    background-color: #ffffff41;
+}
+#cordel3
+{
+ background-image: url(imagens/sol.jpg);
+ background-position: left ;
+ background-attachment: fixed;
+}
+#cordel3 > p 
+{
+    background-color: #ffffff41;
+}
+footer
+{
+    background-color: black;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
