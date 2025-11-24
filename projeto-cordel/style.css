@@ -1,12 +1,21 @@
 
 *
 {
+    min-width: 400px;
     margin: 0px;
     padding: 0px;
 }
-body
+@media (max-width: 429px)
 {
-    min-height: 100vh;
+    section .texto{
+        font-size: 25px;
+    } 
+}
+@media (min-width: 430px)
+{
+    section .texto{
+        font-size: 40px;
+    } 
 }
 .texto
 {
