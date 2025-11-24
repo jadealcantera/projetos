@@ -17,20 +17,15 @@
         font-size: 40px;
     } 
 }
+body
+{
+    background-color: rgba(230, 230, 230, 0.87);
+}
+
 .texto
 {
     width: 100%;
     font-size: 1.25rem;
-}
-img
-{
-    width: 100%;
-}
-img
-{
-    width: 100%;
-    height: auto;
-
 }
 header
 {
@@ -55,7 +50,9 @@ section
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+    
 }
+
 .texto
 {
     width: 50%;
@@ -69,30 +66,36 @@ section
     background-image: url(imagens/teclado.jpg);
     background-position: left center;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.514);
 }
 #cordel1 > p
 {
-    background-color: #ffffff41;
+    background-color: #ffffff57;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.521);
 }
 #cordel2
 {
  background-image: url(imagens/carta.jpg);
  background-position: center;
  background-attachment: fixed;
+ box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.514);
 }
 #cordel2 > p 
 {
     background-color: #ffffff41;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.521);
 }
 #cordel3
 {
  background-image: url(imagens/sol.jpg);
  background-position: left ;
  background-attachment: fixed;
+ box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.575);
 }
 #cordel3 > p 
 {
     background-color: #ffffff41;
+     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.521);
 }
 footer
 {
