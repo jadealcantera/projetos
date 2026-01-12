@@ -1,0 +1,65 @@
+{
+    "Linguagens": [
+        "Interpretação de Texto",
+        "Gêneros Textuais",
+        "Figuras de Linguagem",
+        "Variação Linguística",
+        "Gramática Aplicada"
+    ],
+    "Matematica": [
+        "Porcentagem",
+        "Regra de três",
+        "Gráficos e Tabelas",
+        "Estatísticas",
+        "Geometria",
+        "Funções",
+        "Raciocínio Lógico"
+    ],
+    "Biologia": [
+        "Ecologia e Ecossistemas",
+        "Corpo Humano e Saúde Pública",
+        "Genética e Biotecnologia",
+        "Citologia (Células)"
+    ],
+    "Quimica": [
+        "Misturas e Separação de Materiais",
+        "Estados Físicos da Matéria",
+        "Química Ambiental",
+        "Tabela Periódica Básica"
+    ],
+    "Física": [
+        "Eletricidade e Consumo de Energia",
+        "Termologia",
+        "Cinemática",
+        "Leis de Newton"
+    ],
+    "História": [
+        "Brasil Colônia e Império",
+        "Era Vargas e Populismo",
+        "Ditadura Militar no Brasil",
+        "Revoluções Industriais"
+    ],
+    "Sociologia e Filosofia": [
+        "Ética e Cidadania",
+        "Direitos Humanos",
+        "Movimentos Sociais",
+        "Surgimento da Sociologia"
+    ],
+    "Geografia": [
+        "Meio Ambiente e Sustentabilidade",
+        "Globalização e Economia",
+        "Geografia Urbana e População",
+        "Cartografia (Mapas e Fusos)"
+    ],
+    "Redação": [
+        "Estrutura Dissertativo-Argumentativa",
+        "Repertório Sociocultural",
+        "Proposta de Intervenção",
+        "Uso de Conectivos"
+    ],
+    "Inglês": [
+        "Interpretação de Textos",
+        "Vocabulário Técnico",
+        "Cognatos e Falsos Cognatos"
+    ]
+}

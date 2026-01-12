@@ -1,0 +1,31 @@
+Assistente de Controle Financeiro Personalizado
+Este projeto é um bot para Telegram focado em simplificar a gestão financeira pessoal. Ele foi desenhado para ser uma alternativa rápida às planilhas complexas, permitindo que o usuário registre cada centavo que entra ou sai diretamente pelo chat, mantendo um histórico organizado e acessível.
+
+ Funcionalidades Principais
+O bot transforma o fluxo de mensagens em um sistema de contabilidade simplificado:
+
+Interface por Botões: Utiliza um menu personalizado no Telegram para que o usuário não precise decorar comandos.
+
+Registro Inteligente: Captura valor, descrição e categoria em uma única mensagem (ex: 50.00, Almoço, Alimentação).
+
+Cálculo de Saldo Real: Soma todos os ganhos e subtrai os gastos para mostrar a situação financeira atual instantaneamente.
+
+Resumo por Categoria: Agrupa os gastos (ex: quanto foi gasto apenas com "Lazer" ou "Saúde"), ajudando a identificar para onde o dinheiro está indo.
+
+Persistência de Dados: Utiliza um arquivo JSON local para garantir que os dados não sejam perdidos ao reiniciar o bot.
+
+Especificações Técnicas
+Linguagem: Python.
+
+Bibliotecas: python-telegram-bot (comunicação), json (armazenamento) e os (gestão de arquivos).
+
+Estrutura: Baseada em estados simples para identificar se o usuário está inserindo um ganho ou um gasto.
+
+Como utilizar
+Token: É necessário inserir o token do bot gerado pelo BotFather.
+
+Primeiros Passos: Ao enviar /start, o menu de botões aparecerá automaticamente.
+
+Lançamentos: Escolha o tipo de transação (Ganho ou Gasto) e siga o formato instruído pelo bot para registrar os dados.
+
+Relatórios: Clique em "📊 Resumo Mensal" para ter uma visão detalhada das finanças.

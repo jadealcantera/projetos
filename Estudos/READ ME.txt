@@ -1,0 +1,29 @@
+Assistente Pessoal de Estudos
+Este bot foi criado para resolver uma dor comum de todo estudante: a organização. Ele serve como um guia prático para acompanhar o progresso em diversas disciplinas, ajudando a visualizar o que já foi aprendido e o que ainda falta estudar.
+
+A ideia é que ele seja um companheiro de estudos acessível de qualquer lugar pelo celular, sem complicações.
+
+ O que ele faz?
+O bot funciona como um checklist inteligente. Você define as matérias e os tópicos, e ele te ajuda a manter o controle:
+
+Checklist visual: Mostra todas as matérias com ícones de status (✅ para concluído, ⚪ para pendente).
+
+Barra de progresso: Gera "barrinhas" visuais para você ver, de forma rápida, quanto falta para terminar cada disciplina.
+
+Memória persistente: Tudo o que você marca como estudado é salvo automaticamente em um arquivo, então você pode fechar o bot e voltar depois sem perder nada.
+
+ Como funciona por dentro
+O bot foi construído em Python de forma leve:
+
+Utiliza a biblioteca python-telegram-bot para a comunicação.
+
+Os dados são organizados em um arquivo estudos.json, o que facilita a edição da lista de matérias manualmente se preferir.
+
+Usa comandos simples e diretos para não perder tempo durante o estudo.
+
+ Como usar
+Configuração: Coloque o seu Token do Telegram no código.
+
+Início: Mande um /start para o bot ver as instruções.
+
+Acompanhamento: Use /materias para ver seu cronograma e /status para ver seu desempenho geral.
